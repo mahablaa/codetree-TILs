@@ -5,6 +5,6 @@ c = a//b
 print(f"{c}.", end ="")
 
 i = a*10
-for _ in range(20):
+for _ in range(0, 20):
     print(i//b, end="")
     i = i%b*10
