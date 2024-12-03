@@ -8,5 +8,5 @@ for i in range (a, b+1):
         cnt += 1
         sum_val += i
 
-print(sum_val, end = "")
-print(f"{sum_val / cnt : .1f}")
+print(sum_val, end = " ")
+print(f"{sum_val/cnt:.1f}")
